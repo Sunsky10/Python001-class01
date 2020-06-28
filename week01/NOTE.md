@@ -1,1 +1,9 @@
 学习笔记
+这周初步学习了requests、beautifulsoup、xpath、scrapy这四种爬虫的用法。对于requests和beautifulsoup，我自己有学过这两个，所以在课程里很容易就理解了它们的特点和用法，但是对于xpath和scrapy，我是在课程中刚刚接触的，就我而言都是一些爬虫的新用法和新知识，掌握起来有些困难，需要反复观看课程视频、代码和文档。实践的过程中也是需要一步一步去理解代码的意思，以及它运行后的效果。通过课程和实践我也了解到用xpath和scrapy来爬虫比requests、beautifulsoup方便了很多，节省了很多步骤和时间，提高了我的学习兴趣。git我也是第一次接触，每个操作都需要看着课程来实现。这些新接触的知识我会在后续的课程里更好去学习和掌握它们。
+学到的方法：
+xpath：
+.extract() 返回的所有数据，存在一个list里。
+.extract_first() 返回的是一个string，是extract()结果中第一个值。
+
+Beautifulsoup:
+nextSibling可以获得不在标签里面的内容
